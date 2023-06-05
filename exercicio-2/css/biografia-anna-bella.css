@@ -3,12 +3,14 @@ body {
 
 }
 #topo-da-pagina {
-  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #topo-da-pagina img {
-  min-width: 90%;
-  width: 10em;
+  min-width: 95%;
+  width: 1em;
 }
 
 
@@ -23,13 +25,20 @@ body {
   color: rgb(25, 57, 105);
   text-transform: uppercase;
   font-weight: 800;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   font-size: 1em;
   text-decoration: none;
 }
 
-.corpo-da-pagina {
-  width: 400px;
+#corpo-da-pagina {
+  min-width: 90%;
+  width: 25rem;
+  background-color: white;
+  margin: auto auto;
+}
+
+#corpo-da-pagina h1 {
+  margin: 1rem;
 }
 
 #corpo-da-pagina p {
