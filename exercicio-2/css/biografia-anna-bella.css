@@ -1,0 +1,45 @@
+body {
+  background-image: url(../images/fundo.png);
+
+}
+#topo-da-pagina {
+  margin: 1rem;
+}
+
+#topo-da-pagina img {
+  min-width: 90%;
+  width: 10em;
+}
+
+
+.navBar {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.navBar a {
+  color: rgb(25, 57, 105);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.corpo-da-pagina {
+  width: 400px;
+}
+
+#corpo-da-pagina p {
+  min-width: 90%;
+  width: 5em;
+  margin: 0 20px;
+}
+
+#corpo-da-pagina .sobre-anna  img {
+  min-width: 80%;
+  width: 2em;
+  margin: 2rem 3rem;
+}
