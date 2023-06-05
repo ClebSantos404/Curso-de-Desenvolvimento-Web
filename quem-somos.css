@@ -1,0 +1,26 @@
+table {
+  display: flex;
+  justify-content: center;
+  background: url(./images/fundo2.png) repeat;
+  height: 700px;
+  margin: -1.5rem 1rem;
+}
+
+table .header {
+  width: 100%;
+  max-width: 70rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20rem;
+  margin: 10px;
+}
+
+p {
+  width: 100%;
+  max-width: 60rem;
+}
+
+h4 {
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+table {
+  display: flex;
+  justify-content: center;
+  background: url(./images/fundo2.png) repeat;
+  height: 700px;
+  margin: -.4rem 1rem;
+}
+
+.header {
+  width: 100%;
+  max-width: 70rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20rem;
+  margin: 20px;
+}
+
+table tr:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+
+table h4 {
+  text-align: center;
+}
