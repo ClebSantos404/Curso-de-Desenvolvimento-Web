@@ -7,14 +7,14 @@ body {
 }
 
 #topo-da-pagina img {
-  min-width: 90%;
-  width: 10em;
+  max-width: 40rem;
+  width: 95%;
 }
 
 
 .navBar {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -24,16 +24,22 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   text-decoration: none;
+  flex-wrap: wrap;
 }
 
-.corpo-da-pagina {
-  width: 400px;
+#corpo-da-pagina {
+  max-width: 40rem;
+  width: 90%;
+  text-align: start;
+}
+
+#corpo-da-pagina h4 {
+  text-align: center;
+  padding: 1rem;
 }
 
 #corpo-da-pagina p {
-  min-width: 90%;
-  width: 5em;
   margin: 0 20px;
 }
