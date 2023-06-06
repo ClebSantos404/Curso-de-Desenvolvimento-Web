@@ -1,0 +1,59 @@
+
+body {
+  background-image: url(../images/fundo.png);
+}
+
+#topo-da-pagina {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#topo-da-pagina img {
+  max-width: 40rem;
+  width: 95%;
+  margin: 0 20px;
+}
+
+.navBar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.navBar a {
+  color: rgb(25, 57, 105);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+#corpo-da-pagina {
+  max-width: 40rem; /* largura maxima de 40rem equivalente a 640px */
+  width: 95%; /* quando a largura do pai for 95% ajuste-se. */
+  margin: 0 20px;
+
+}
+
+.sobre-anna {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+#corpo-da-pagina .sobre-anna img {
+  border: 5px solid #3b1a0db0;
+  padding: 10px;
+  max-width: 1200px; /*A largura maxima dela é 1200px. */
+  width: 90%; /* quando a largura do pai for 90% ajuste-se. */
+}
+
+.align {
+  text-align: start;
+}
+
+.align-ct {
+  text-align: center;
+}
