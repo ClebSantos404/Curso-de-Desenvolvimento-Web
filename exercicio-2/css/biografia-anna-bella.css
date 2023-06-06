@@ -2,6 +2,7 @@ body {
   background-image: url(../images/fundo.png);
 
 }
+
 #topo-da-pagina {
   display: flex;
   flex-direction: column;
@@ -9,16 +10,18 @@ body {
 }
 
 #topo-da-pagina img {
-  min-width: 95%;
-  width: 1em;
+  max-width: 50rem;
+  width: 90%;
+  margin: 0 20px;
 }
 
 
 .navBar {
   display: flex;
-  gap: 1rem;
   flex-wrap: wrap;
   flex-direction: row;
+  gap: 1.5rem;
+  padding: 20px;
 }
 
 .navBar a {
@@ -31,24 +34,25 @@ body {
 }
 
 #corpo-da-pagina {
-  min-width: 90%;
-  width: 25rem;
-  background-color: white;
-  margin: auto auto;
-}
-
-#corpo-da-pagina h1 {
-  margin: 1rem;
-}
-
-#corpo-da-pagina p {
-  min-width: 90%;
-  width: 5em;
+  max-width: 50rem; /* largura maxima de 40rem equivalente a 640px */
+  width: 90%; /* quando a largura do pai for 95% ajuste-se. */
   margin: 0 20px;
+
 }
 
-#corpo-da-pagina .sobre-anna  img {
-  min-width: 80%;
-  width: 2em;
-  margin: 2rem 3rem;
+.sobre-anna {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+#corpo-da-pagina .sobre-anna img {
+  padding: 10px;
+  margin: 20px auto ;
+  border: 2px dashed black;
+  max-width: 1200px; /*A largura maxima dela é 1200px. */
+  width: 90%; /* quando a largura do pai for 90% ajuste-se. */
+}
+
+#corpo-da-pagina h4 {
+  text-align: center;
 }
