@@ -13,7 +13,6 @@
   background-color: var(--body-color);
   max-width: 1460px;
   width: 100%;
-  font-size: 1em;
   padding: 2rem;
   color: white;
 }
@@ -22,28 +21,41 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.area-navegacao nav a {
+.area-navegacao {
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.area-navegacao a {
+  display: inline-block;
+  font-size: 1em;
   color: white;
   font-weight: bold;
-  margin: 2rem;
-  flex-wrap: wrap;
   text-decoration: none;
-  margin: 0 1.5rem;
-  padding: 1rem 0;
+  padding: .7rem 1.5rem;
+  margin: 0 .3em;
+}
+
+.area-navegacao a:hover {
+  background: #fff;
+  color: black;
+  border-radius: 10px;
 }
 
 .corpo-postagens {
-  margin: 0 20rem 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin: 10rem auto 1rem auto;
   padding: 10px;
-  max-width: 660px;
-  width: 90%;
-  border: 1px solid red;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .area-posts {
   padding: 10px;
   max-width: 620px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -51,10 +63,15 @@ body {
   color: var(--body-color);
 }
 
+.area-posts .posts .data-postagem,
+.descricao {
+  font-size: 0.8rem;
+}
+
 .corpo-postagens img {
   max-width: 700px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .post-recentes h3,
@@ -65,37 +82,34 @@ body {
 }
 
 .recentes {
-  display: flex;
-  flex-direction: column;
   padding: 5px;
 }
 
 .area-lateral {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 16rem;
-  left: 75%;
-  margin-left: 1rem;
-  max-width: 20em;
+  width: 300px;
+  margin: 1rem 1rem;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 640px) {
   .area-lateral {
-  display: none;
+    display: none;
   }
 }
 
 .categorias .categoria nav {
   display: flex;
   flex-direction: column;
-  gap: 5px;
 }
 
 .categoria nav a {
   text-decoration: none;
   color: rgb(212, 191, 0);
   font-weight: bold;
+}
+
+footer h3 {
+  padding: .3rem;
+  background-color: var(--secundary-color);
 }
 
 .mt-1 {
@@ -124,4 +138,8 @@ body {
 
 .pd-geral {
   padding: 0 10px;
+}
+
+.mt-auto {
+  margin: 0 auto;
 }
