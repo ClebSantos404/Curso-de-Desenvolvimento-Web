@@ -1,0 +1,50 @@
+body {
+  font-family:'Trebuchet MS' Arial, sans-serif
+}
+
+ul {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  float: left;
+  background: url(./images/aba-direita.png) no-repeat top right;
+}
+
+li a {
+  display: block;
+  padding: 0 2em;
+  line-height: 3em;
+  background: url(./images/aba-esquerda.png) no-repeat top left;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+ul li:hover, #selected {
+  background: url(./images/aba-direita-atual.png) no-repeat top right;
+}
+
+li a:hover, #selected {
+  background: url(./images/aba-esquerda-atual.png) no-repeat top left;
+  color: #000;
+}
+
+#home .home, 
+#sobre .sobre, 
+#servicos .servicos, 
+#noticias .noticias, 
+#contato .contato {
+  background: url(./images/aba-direita-atual.png) no-repeat top right;
+}
+
+#home .home a, 
+#sobre .sobre a, 
+#servicos .servicos a, 
+#noticias .noticias a, 
+#contato .contato a {
+  background: url(./images/aba-esquerda-atual.png) no-repeat top left;
+}
