@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+#container {
+  margin: 0 auto;
+
+  height: 100%;
+  width: 1580px;
+}
+
+#container span {
+  background-color: purple;
+  padding: 20px 40px;
+
+}
+
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4 {
+  height: 100%;
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: .7;
+}
+
+.caixa1 {
+  background-image: url(../imagens/imagem1.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo-meio {
+  padding: 50px;
+  text-align: center;
+}
+
+.conteudo-meio h1 {
+  margin: 10px 0;
+  font-size: 50px;
+}
+
+.caixa2 {
+  background-image: url(../imagens/imagem2.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.caixa3 {
+  background-image: url(../imagens/imagem3.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.caixa4 {
+  background-image: url(../imagens/imagem4.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
