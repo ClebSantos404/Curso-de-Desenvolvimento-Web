@@ -11,7 +11,7 @@ body {
 
 #container {
   background-color: #ede9cc;
-  max-width: 1220px;
+  max-width: 1280px;
   min-height: 740px;
   margin: 0 auto;
 }
@@ -103,7 +103,7 @@ a {
   float: right;
   height: 180px;
   padding: 10px;
-  width: 200px;
+  width: 190px;
 }
 
 #corpo {
@@ -117,13 +117,6 @@ a {
   padding-top: 15px;
   width: 50%;
   float: left;
-}
-
-#secundario {
-  background: url(../images/bg-area-lateral.png) top center repeat-x;
-  padding-top: 15px;
-  width: 50%;
-  float: right;
 }
 
 .conteudo {
@@ -141,11 +134,55 @@ a {
   font-size: .9em;
 }
 
+#secundario {
+  background: url(../images/bg-area-lateral.png) top center repeat-x;
+  padding-top: 15px;
+  width: 50%;
+  float: right;
+}
+
+.img img {
+  max-width: 150px;
+}
+
+#caixa li {
+  list-style: none;
+  margin: 10px 0;
+  border-bottom: 1px solid #fff;
+}
+
+#caixa li a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: center;
+  padding: 10px;
+  color: #000;
+}
+
+#caixa li a:hover {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.info-conteudo {
+  padding: 0 10px;
+  font-size: .8em;
+}
+
+.info-conteudo h3 {
+  color: #5c572f;
+  margin-bottom: 10px;
+  background: url(../images/ornamento.png) no-repeat center right;
+}
+
 
 #rodape {
   clear: both;
+  margin-top: 45px;
   background: url(../images/bg-rodape.png);
   padding: 20px;
   color: #7d7640;
   text-align: center;
+  text-transform: uppercase;
 }
